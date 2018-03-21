@@ -9,6 +9,11 @@ def line(katz_deli)
     i = 0
     loop do
       numberedLine.push("#{q}. #{katz_deli[i]}")
+      if q >= katz_deli.length
+        break
+      end
+    q += 1
+    i += 1
     end
 
     currentNumberedLine.push()
