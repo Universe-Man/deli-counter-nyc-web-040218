@@ -15,6 +15,9 @@ def line(katz_deli)
     q += 1
     i += 1
     end
-    puts numberedLine
-end
+    currentNumberedLine = "The line is currently:" + numberedLine.join
+
+    puts currentlyNumberedLine
+
+  end
 end
