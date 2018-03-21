@@ -15,7 +15,7 @@ def line(katz_deli)
     q += 1
     i += 1
     end
-    currentNumberedLine = "The line is currently: " + numberedLine.join('')
+    currentNumberedLine = "The line is currently: " + numberedLine.join(' ')
 
     puts currentNumberedLine
 
